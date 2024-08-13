@@ -1,9 +1,5 @@
 <?php
 /**
- *The template file for job title in single job page
- * 
- * This template can be overridden by copying it to yourtheme/job-manager-career/single-jobs/title.php
- *
  * @link       https://themehigh.com
  * @author     ThemeHigh
  * @package    job-manager-career
