@@ -1,0 +1,53 @@
+.thjmf-single-job-page .thjmf-job-title-group:has(.thjmf-featured-icon) {
+    justify-content: space-between;
+}
+
+.thjmf-single-job-page .thjmf-job-title-group:not(:has(.thjmf-featured-icon)) .thjmf-job-title{
+    display: none;
+}
+
+.thjmf-single-job-page .thjmf-job-title-group:not(:has(.thjmf-featured-icon)) .thjmf-title-actions{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.thjmf-single-job-page .thjmf-title-actions {
+    align-items: center;
+}
+
+.thjmf-single-job-page .thjmf-job-title-group:not(:has(.thjmf-featured-icon)) .thjmf-title-actions .thjmf-share-job{
+    position: relative;
+}
+
+.thjmf-single-job-page .thjmf-job-title-group {
+    align-items: center !important;
+}
+
+.thjmf-single-job-page .thjmf-job-title.thjmf-js-job-title.entry-title {
+    margin: 0px;
+}
+
+.thjmf-single-job-page .thjmf-featured-icon {
+    margin: 0px !important;
+}
+
+.thjmf-single-job-page .thjmf-job-button {
+    margin: 0px !important;
+}
+
+.thjmf-single-job-page .thjmf-share-job, .thjmf-single-job-page .thjmf-job-button {
+    line-height: unset !important;
+}
+
+.thjmf_job_application .wc-block-components-textarea {
+    margin-bottom: revert;
+}
+
+.thjmf-form-row.wc-block-components-text-input input:-webkit-autofill {
+    padding: 1em !important;
+}
+
+.thjmf-single-job-page .thjmf-field-has-placeholder-label .thjmf-validation-message {
+    box-sizing: border-box;
+}
